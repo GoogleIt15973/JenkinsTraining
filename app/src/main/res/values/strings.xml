@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Shory</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tap_continue">Tap anywhere to continue</string>
+
+    <color name="word">#000000</color>
+    <color name="background">#708090</color>
+    <color name="bottom_panel_bkg">#C0C0C0</color>
+
+    <string name="title_activity_main_page">Home</string>
+    <string name="title_activity_search_shop">Search</string>
+    <string name="title_activity_event_list">Event</string>
+    <string name="title_activity_event_detail">Event Detail</string>
+    <string name="search_text_hint">Enter shop name</string>
+    <string name="search_button">Search</string>
+    <string name="title_activity_shop_detail">Shop Detail</string>
+    <string name="shop_name">Shop Name</string>
+
+    <string-array name="search_type">
+        <item>Name</item>
+        <item>Category</item>
+        <item>Floor</item>
+    </string-array>
+
+</resources>

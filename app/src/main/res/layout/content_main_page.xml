@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fullcreamlowfat.wireless_shory.MainPage"
+    tools:showIn="@layout/activity_main_page"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.SlidingPaneLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="#000000">
+    </android.support.v4.widget.SlidingPaneLayout>
+
+    <ListView android:id="@+id/favourite_shop_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </ListView>
+
+    <FrameLayout android:id="@+id/main_bottom_panel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </FrameLayout>
+
+</LinearLayout>

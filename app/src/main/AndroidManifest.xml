@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fullcreamlowfat.wireless_shory">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainPage"
+            android:label="@string/title_activity_main_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SearchShop"
+            android:label="@string/title_activity_search_shop"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EventList"
+            android:label="@string/title_activity_event_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShopDetail"
+            android:label="@string/title_activity_shop_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EventDetail"
+            android:label="@string/title_activity_event_detail"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
